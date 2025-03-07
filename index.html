@@ -1,24 +1,102 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ezenwa</title>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: bisque;
+            margin: 5px;
+            padding: 0px;
+        }
+        .wrapper a{
+            text-decoration: none;
+        }
+        .wrapper li{
+            margin-right: 200px;
+            list-style: none;
+            float: left;
+            padding-left: 10px;
+            color: beige;
+        }
+        .wrapper li:hover{
+            color: aquamarine;
+        }
+        .wrapper ul{
+            display: inline-block;
+        }
+        section:hover{
+            background-color: brown;
+            border-radius: 10px;
+        }
+        .table{
+            margin-left: 500px;
+            padding: 0px;
+        }
+    </style>
 </head>
 <body>
-    
-    <h1 title="scum"> Hello my name is Ezenwa</h1>
-    <h2>Hello my name is Ezenw</h2>
-    <h3>Hello my name is Ezen</h3>
-    <h4>Hello my name is Eze</h4>
-    <h5>Hello my name is Ez</h5>
-    <h6>Hello my name is E</h6>
+    <div class="wrapper">
+        <nav>
+        <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Work</li></a>
+            <a href=""><li>Resume</li></a>
+            <a href=""><li>Contact</li></a>
+        </ul>
+        </nav>
+        
+        <section id="about"> <h1>About</h1> 
+            <p>Computer Science is the study of computers and computational systems,
+            encompassing both theoretical and practical aspects. It deals with algorithms, data structures, programming languages,
+            software development, and hardware design. The field is vast and continually evolving, driving innovation across various industries.</p>
+        </section>
+        <section id="work"> <h2>Work</h2>
+            <p>Computer scientists are professionals who specialize in the theoretical foundations and practical 
+            applications of computing. Their work spans a wide range of areas, contributing to technological advancements and solving 
+             complex problems. </p>
+            </section>
+        <section id="resume"> <h1>Resume</h1>
+            <h3>Prince Doe</h3>
+            <p>Location: Lagos, Nigeria | Email: prince.doe@example.com | Phone: +234 123 456 7890 | LinkedIn: linkedin.com/in/princedoe 
+            
+            Summary
+            
+            Highly skilled and creative software developer with over 5 years of experience in designing, developing, and deploying scalable 
+            applications. Proficient in a wide range of programming languages and tools, with a strong foundation in both front-end and back-end 
+             development. Seeking to leverage technical expertise and passion for innovation to contribute to a dynamic team. </p>
+            </section>
+        <section id="contact"> <h4>Contact Us <br> Whatsapp: 091777282893, Facebook: Prince Joe, LinkedIn: <a href="">linkedin.com/in/princedoe</a> </h4> </section>
+    </div>
 
-    <b>Hello my name is Ezenwa</b>
-    <i>Hello my name is Ezenwa</i>
-    <del>Ohh noo i have been deleted :o</del>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>30</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Bob Doe</td>
+                <td>28</td>
+                <td>UK</td>
+            </tr>
+        </table>
+    </div>
 
-    <p>Visca barca visca cataluyna</p>
-    <p>Culers</p>
-
+    <footer>@2025</footer>
 </body>
 </html>
